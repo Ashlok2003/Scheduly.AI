@@ -1,30 +1,27 @@
-# 📅 Scheduly.AI – Conversational Calendar Booking Assistant
+# 📅 Scheduly.AI – Chat with My Assistant to Book Meetings
 
-Scheduly.AI is an intelligent, chat-powered assistant that helps users book appointments directly to Google Calendar through natural conversation. Built using FastAPI, LangGraph/Langchain, and Streamlit, it leverages LLM APIs for seamless intent understanding and booking automation.
+**Scheduly.AI** is a personalized, AI-powered assistant that helps others schedule meetings **with you** via natural conversation. It integrates directly with **your Google Calendar** using a service account and uses advanced LLMs to understand booking requests, check availability, and create events—automatically.
 
 ---
 
 ## 🚀 Features
 
-- Conversational UI for calendar booking
-- Real-time slot availability checks
-- Google Calendar integration (Service Account-based)
-- LLM-powered intent detection and function calling
-- Hosted backend and frontend for live testing
+* Chat-based meeting scheduler for your personal calendar
+* Real-time availability checks before booking
+* Direct integration with Google Calendar (service account)
+* LLM-driven intent understanding and tool usage
+* Fully hosted backend and frontend for live use
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer      | Technology                     |
-|------------|--------------------------------|
-| Backend    | Python, FastAPI                |
-| Frontend   | Streamlit                      |
-| AI Agent   | LangGraph or Langchain         |
-| LLM API    | Gemini / Grok / OpenAI / etc.  |
-| Calendar   | Google Calendar API (Service Account) |
-| Hosting    | Railway / Render / Fly.io      |
-
----
-
+| Layer    | Technology                            |
+| -------- | ------------------------------------- |
+| Backend  | Python, FastAPI                       |
+| Frontend | Streamlit                             |
+| AI Agent | LangChain / LangGraph                 |
+| LLM API  | Gemini                 |
+| Calendar | Google Calendar API (Service Account) |
+| Hosting  | Render              |
 
