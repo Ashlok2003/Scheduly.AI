@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
-st.title("Scheduly.AI – Conversational Calendar Booking Assistant")
-st.write("Chat with the assistant to book appointments on your Google Calendar. Provide your Calendar ID when prompted.")
+st.title("Scheduly.AI – A Personal Conversational Calendar Booking Assistant")
+st.write("Chat with my assistant to book an appointment on my Google Calendar.")
 
 
 if "messages" not in st.session_state:
