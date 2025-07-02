@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# Env files
+.env
+.env.*
+
+# Test and coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.tox/
+
+# MyPy / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Local secrets / credentials
+secrets.json
+credentials.json
+token.json

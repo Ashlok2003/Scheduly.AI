@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-api-python-client
+google-auth
