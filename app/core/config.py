@@ -17,13 +17,9 @@ class Settings:
         return value
 
     def _load_google_credentials(self) -> str:
-        path = os.getenv("GOOGLE_CREDENTIALS_FILE", "credentials.json")
-        if not os.path.exists(path):
-            raise HTTPException(
-                status_code=500,
-                detail=f"Google credentials file not found at: {path}"
-            )
-        with open(path) as f:
-            return json.load(f)
+        raw = os.getenv("GOOGLE_CREDENTIALS_JSON")
+        if not raw:
+            raise HTTPException(status_code=500, detail="Missing GOOGLE_CREDENTIALS_JSON")
+        return json.loads(raw)
 
 settings = Settings()
