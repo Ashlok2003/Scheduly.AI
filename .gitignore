@@ -28,6 +28,7 @@ Thumbs.db
 # Env files
 .env
 .env.*
+*.json
 
 # Test and coverage
 coverage/
