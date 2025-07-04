@@ -76,7 +76,7 @@ agent_executor = AgentExecutor(
     memory=memory,
     verbose=True,
     handle_parsing_errors=True,
-    max_iterations=3
+    max_iterations=10
 )
 
 @router.post("/chat")
